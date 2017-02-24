@@ -1,0 +1,5 @@
+popover弹出效果,可以在当前页面中部分的显示另一个控制器,这是在大屏幕的iPad出现后,苹果为了更充分的利用屏幕做出来的一种解决方案,(这样做减少了页面跳转操作).
+在7.0及以前,实现方法是使用UIPopoverController的方法,但是这种方法只能使用在iPad设备上,而不能应用到iPhone上(对于不到5寸的屏幕,也确实没有popover的必要).
+直到8.0时苹果推出plus，手机尺寸达到了5.5寸.苹果随之推出了可以用在iPhone的popover解决方案,就是UIPopoverPresentationController.
+UIViewController有一个属性popoverPresentationController,设置该属性可以实现iPhone上的popover效果.
+该项目是简书上一篇技术文章的演示示例，文章地址：http://www.jianshu.com/p/76ff1c14ea75
